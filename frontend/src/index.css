@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+@theme {
+  --color-primary: #5f6fff;
+  --color-secondary: #f59e42;
+}
+
+::-webkit-scrollbar{
+    @apply hidden
+}
